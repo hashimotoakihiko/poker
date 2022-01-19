@@ -48,7 +48,42 @@ function judge($cards) {
         }
 }     
 
-          
+
+// 表示例2）
+// 手札は 
+// heart1 spade2 diamond11 club13 heart9
+// 役はなしです
+// $cards2 = [
+//     ['suit'=>'heart',   'number'=> 1],
+//     ['suit'=>'spade',   'number'=> 2],
+//     ['suit'=>'diamond', 'number'=>11],
+//     ['suit'=>'club',    'number'=>13],
+//     ['suit'=>'heart',   'number'=> 9]
+//          ];
+         
+// function judge2($cards2){
+//         if($cards2){
+//             echo "なし";
+//         }
+// }            
+         
+
+// 表示例3）
+// 手札は 
+// heart1 heart1 heart3 heart4 heart5
+// 手札は不正です
+// $cards3 = [
+//     ['suit'=>'heart', 'number'=>1],
+//     ['suit'=>'heart', 'number'=>1],
+//     ['suit'=>'heart', 'number'=>3],
+//     ['suit'=>'heart', 'number'=>4],
+//     ['suit'=>'heart', 'number'=>5]
+//          ];
+// function judge3($cards3){
+//         if($cards3){
+//             echo "なし";
+//         }
+// }                     
 
     // カードの不正チェック
 
@@ -70,7 +105,21 @@ function judge($cards) {
     <section>
         <p>手札は</p>
         <p><?php foreach($cards as $card): ?><?=$card['suit'].$card['number'] ?><?php endforeach; ?></p>
-        <p>役は<?php judge($cards) ?>です。</p>        
+        <p>役は<?php judge($cards) ?>です。</p>
+      
+        <!--<p>手札は</p>-->
+        <!--<p><?php //foreach($cards2 as $card2): ?>-->
+        <?//$card2['suit'].$card2['number'] ?>
+        <!--<?php //endforeach; ?></p>-->
+        <!--<p>役は<?php //judge2($cards2) ?>です。</p>-->
+       
+        
+        <!--<p>手札は</p>-->
+        <!--<p><?php //foreach($cards3 as $card3): ?>
+        <?//=$card3['suit'].$card3['number'] ?>
+        <?php //endforeach; ?></p>-->
+        <!--<p>役は<?php //judge3($cards3) ?>です。</p>-->
+        
     </section>
 </body>
 </html>
