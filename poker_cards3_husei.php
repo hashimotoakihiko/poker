@@ -66,7 +66,7 @@ function judge3($cards3){
         <p><?php foreach($cards3 as $card3): ?>
         <?= $card3['suit'].$card3['number'] ?>
         <?php endforeach; ?></p>
-        <p>手札は<?php judge3($cards3) ?>です。</p>
+        <p>手札が<?php judge3($cards3) ?>です。</p>
     </section>
 </body>
 </html>
