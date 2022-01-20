@@ -40,6 +40,9 @@ $cards3 = [
     ['suit'=>'heart', 'number'=>4],
     ['suit'=>'heart', 'number'=>5]
          ];
+
+$result = shuffle( $cards );
+
 function judge3($cards3){
         if($cards3){
             echo "不正";

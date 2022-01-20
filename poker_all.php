@@ -29,10 +29,11 @@
 // ※下の方が強い
 
 
+
 // 表示例1）
-// 手札は 
-// heart2 heart5 heart3 heart4 culb1
-// 役はストレートです
+    // 手札は 
+    // heart2 heart5 heart3 heart4 culb1
+    // 役はストレートです
 $cards = [
     ['suit'=>'heart', 'number'=>2],
     ['suit'=>'heart', 'number'=>5],
@@ -49,10 +50,11 @@ function judge($cards) {
 }     
 
 
+
 // 表示例2）
-// 手札は 
-// heart1 spade2 diamond11 club13 heart9
-// 役はなしです
+    // 手札は 
+    // heart1 spade2 diamond11 club13 heart9
+    // 役はなしです
 // $cards2 = [
 //     ['suit'=>'heart',   'number'=> 1],
 //     ['suit'=>'spade',   'number'=> 2],
@@ -69,9 +71,9 @@ function judge($cards) {
          
 
 // 表示例3）
-// 手札は 
-// heart1 heart1 heart3 heart4 heart5
-// 手札は不正です
+    // 手札は 
+    // heart1 heart1 heart3 heart4 heart5
+    // 手札は不正です
 // $cards3 = [
 //     ['suit'=>'heart', 'number'=>1],
 //     ['suit'=>'heart', 'number'=>1],

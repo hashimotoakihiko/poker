@@ -40,7 +40,9 @@ $cards = [
     ['suit'=>'heart', 'number'=>4],
     ['suit'=>'culb',  'number'=>1]
         ];
-        
+
+$result = shuffle( $cards );
+
 function judge($cards) {
     // この関数内に処理を記述
         if($cards) {

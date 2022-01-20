@@ -41,7 +41,9 @@ $cards2 = [
     ['suit'=>'club',    'number'=>13],
     ['suit'=>'heart',   'number'=> 9]
          ];
-         
+
+$result = shuffle( $cards );         
+
 function judge2($cards2){
         if($cards2){
             echo "なし";
