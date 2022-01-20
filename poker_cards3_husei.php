@@ -41,7 +41,7 @@ $cards3 = [
     ['suit'=>'heart', 'number'=>5]
          ];
 
-$result = shuffle( $cards );
+$result = shuffle( $cards3 );
 
 function judge3($cards3){
         if($cards3){
