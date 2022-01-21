@@ -89,8 +89,8 @@
     <body>
         <section>
             <p>手札は</p>
-            <p><?php foreach($cards as $card4): ?>
-            <?= $card4['suit'].$card4['number'] ?>
+            <p><?php foreach($cards as $card): ?>
+            <?= $card['suit'].$card['number'] ?>
             <?php endforeach; ?></p>
             <p>役は<?php judge($cards) ?>です。</p>
         </section>
